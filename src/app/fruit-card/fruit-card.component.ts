@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { DetailService } from '../detail.service';
 
 @Component({
   selector: 'app-fruit-card',

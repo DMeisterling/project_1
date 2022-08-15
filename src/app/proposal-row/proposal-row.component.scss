@@ -1,6 +1,8 @@
 .profile {
   display: flex;
   align-items: center;
+  overflow: hidden;
+  position:relative;
 
   img {
   height: 100px;
@@ -14,9 +16,25 @@
   .description {
     color: rgb(39, 38, 38);
     font-size: 13px;
+  }
+
+  button {
+    height: 24px;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(142, 142, 199);
+    border: (1,1, 0.5);
+    //border-top: 1px solid rgba(0,0,0, 0.5);
+    cursor: pointer;
+
+
+
     &:hover {
-      cursor: pointer;
+      background-color: rgb(94, 94, 154);
     }
+
   }
 
 }
