@@ -1,0 +1,27 @@
+.profile {
+  display: flex;
+  align-items: center;
+
+  img {
+  height: 100px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: right;
+  margin-right: 16px;
+  }
+
+  .description {
+    color: rgb(39, 38, 38);
+    font-size: 13px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+.abstand {
+  padding: 3px;
+  margin: 3px;
+}

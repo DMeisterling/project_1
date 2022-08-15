@@ -1,0 +1,10 @@
+<app-proposal-row></app-proposal-row>
+
+<b>Weitere Frucht-Vorschläge:</b>
+
+<app-proposal-row
+*ngFor="let i of [0, 1, 2, 3]"
+[fruitName]="fruitNames[i]"
+[fruitImage]="fruitImages[i]"
+[fruitText]="fruitTexte[i]"
+></app-proposal-row>
